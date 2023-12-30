@@ -1,0 +1,177 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 70vh;
+}
+
+#card-poke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemon-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagePoke {
+    width: 100px;
+}
+
+#pokeNome {
+    background-color: lightblue;
+    padding: 5px;
+}
+
+#pokemon {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+#button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+}
+
+#typesPoke {
+    display: flex;
+    gap: 10px; 
+    list-style: none;
+    padding: 0; 
+}
+
+#typesPoke > .water {
+    background-color: blue;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .normal {
+    background-color: lightgray;
+    color: black;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .fire {
+    background-color: rgb(168, 16, 16);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .grass {
+    background-color: rgb(0, 107, 18);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .flying {
+    background-color: rgb(123, 181, 204);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .fighting {
+    background-color: rgb(2, 10, 14);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .poison {
+    background-color: rgb(53, 0, 102);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .electric {
+    background-color: rgb(181, 221, 0);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .ground {
+    background-color: rgb(102, 40, 4);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .rock {
+    background-color: rgb(70, 68, 64);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .psychic {
+    background-color: rgb(125, 0, 141);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .ice {
+    background-color: rgb(23, 140, 194);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .bug {
+    background-color: rgb(50, 202, 44);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .ghost {
+    background-color: rgb(42, 2, 54);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .steel {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .dragon {
+    background-color: rgb(34, 0, 0);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .dark {
+    background-color: rgb(19, 7, 27);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
+
+#typesPoke > .fairy {
+    background-color: rgb(161, 23, 92);
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+}
